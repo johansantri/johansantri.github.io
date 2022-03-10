@@ -4,18 +4,12 @@ You can use the [GitHub](https://github.com/johansantri)
 
 
 ```markdown
-
 print("Hello World")
-
-
 ```
 
 
 ```markdown
-
-
 echo "Hello World!";
-
 ```
 
 
