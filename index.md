@@ -10,8 +10,14 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ```markdown
 Syntax highlighted code block
+print("Hello World")
+echo "Hello World!";
 
+ body {
+  background-color: lightblue;
+}
 
+SELECT * FROM table_name; 
 
 1. Numbered
 2. List
