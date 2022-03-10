@@ -13,6 +13,6 @@ echo "Hello World!";
 
 ### Support or Contact
 
-- Email [Mail](mailto:johan@icei.ac.id)
-- You can use the [Whatapp](https://api.whatsapp.com/send/?phone=6285768137009&text&app_absent=0) 
-- You can use the [YouTube](https://www.youtube.com/user/johansantri)
+- [Mail](mailto:johan@icei.ac.id)
+- [Whatapp](https://api.whatsapp.com/send/?phone=6285768137009&text&app_absent=0) 
+- [YouTube](https://www.youtube.com/user/johansantri)
