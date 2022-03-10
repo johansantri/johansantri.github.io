@@ -11,12 +11,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
 1. Numbered
 2. List
@@ -32,6 +27,6 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 ### Support or Contact
 
-Mail   : johan@icei.ac.id 
-Tlp/WA :+6285768137009 
-YouTube : johansantri
+- Mail   : johan@icei.ac.id 
+- You can use the [Whatapp](https://api.whatsapp.com/send/?phone=6285768137009&text&app_absent=0) 
+- You can use the [YouTube](https://www.youtube.com/user/johansantri)
