@@ -1,116 +1,284 @@
-
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tailwind Profile Card Template : Tailwind Toolbox</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="">
-
-  <!-- Font Awesome if you need it
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-  -->
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> 
-  <!--Replace with your tailwind.css once created-->
-
-</head>
-
-<body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover" style="background-image:url('https://source.unsplash.com/1L71sPT5XKc');">
-
-
-
-  <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
-    
-	<!--Main Col-->
-	<div id="profile" class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
-	
-
-		<div class="p-4 md:p-12 text-center lg:text-left">
-			<!-- Image for mobile view-->
-			<div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="background-image: url('https://source.unsplash.com/MP0IUfwrn0A')"></div>
-			
-			<h1 class="text-3xl font-bold pt-8 lg:pt-0">Your Name</h1>
-			<div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
-			<p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start"><svg class="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z"/></svg> What you do</p>
-			<p class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start"><svg class="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4h3.82zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14zm-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4zm.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4H8.33zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4zm.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51H3.07zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51h3.22zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6zM3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6z"/></svg> Your Location - 25.0000° N, 71.0000° W</p>
-			<p class="pt-8 text-sm">Totally optional short description about yourself, what you do and so on.</p>
-
-			<div class="pt-12 pb-8">
-				<button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
-				  Get In Touch
-				</button> 
-			</div>
-
-			<div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
-				<a class="link" href="#" data-tippy-content="@facebook_handle"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/></svg></a>
-				<a class="link" href="#" data-tippy-content="@twitter_handle"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a>
-				<a class="link" href="#" data-tippy-content="@github_handle"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
-				<a class="link" href="#" data-tippy-content="@unsplash_handle"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Unsplash</title><path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/></svg></a>
-				<a class="link" href="#" data-tippy-content="@dribble_handle"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Dribbble</title><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.814zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.914 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702-1.81-1.61-4.19-2.586-6.795-2.586-.825 0-1.63.1-2.4.285zm10.335 3.483c-.218.29-1.935 2.493-5.724 4.04.24.49.47.985.68 1.486.08.18.15.36.22.53 3.41-.43 6.8.26 7.14.33-.02-2.42-.88-4.64-2.31-6.38z"/></svg></a>
-				<a class="link" href="#" data-tippy-content="@instagram_handle"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
-				<a class="link" href="#" data-tippy-content="@youtube_handle"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>YouTube</title><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg></a>
-			</div>
-			
-			<!-- Use https://simpleicons.org/ to find the svg for your preferred product --> 
-
-		</div>
-
-	</div>
-	
-	<!--Img Col-->
-	<div class="w-full lg:w-2/5">
-		<!-- Big profile image for side bar (desktop) -->
-		<img src="https://source.unsplash.com/MP0IUfwrn0A" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
-		<!-- Image from: http://unsplash.com/photos/MP0IUfwrn0A -->
-		
-	</div>
-	
-	
-	<!-- Pin to top right corner -->
-	  <div class="absolute top-0 right-0 h-12 w-18 p-4">
-		<button class="js-change-theme focus:outline-none">🌙</button>
-	  </div>
+<html lang="en"><head itemscope itemtype="http://schema.org/WebSite"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title itemprop="name">Preview bootstrap html snippet. about me profile</title><meta name="description" itemprop="description" content="Preview bootstrap html snippet. about me profile. Copy and paste the html, css and js code for save time, build your app faster and responsive"><meta name="keywords" content="html, css, javascript, themes, templates, code snippets, ui examples, react js, react-native, plagraounds, cards, front-end, profile, invoice, back-end, web-designers, web-developers"><link itemprop="sameAs" href="https://www.facebook.com/bootdey"><link itemprop="sameAs" href="https://twitter.com/bootdey"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta name="viewport" content="width=device-width"><link rel="shortcut icon" type="image/x-icon" href="/img/bootdey_favicon.ico"><link rel="apple-touch-icon" sizes="135x140" href="/img/bootdey_135x140.png"><link rel="apple-touch-icon" sizes="76x76" href="/img/bootdey_76x76.png"><link rel="canonical" href="https://www.bootdey.com/snippets/view/about-me-profile" itemprop="url"><meta property="twitter:account_id" content="2433978487" /><meta name="twitter:card" content="summary"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@bootdey"><meta name="twitter:creator" content="@bootdey"><meta name="twitter:title" content="Preview bootstrap html snippet. about me profile"><meta name="twitter:description" content="Preview bootstrap html snippet. about me profile. Copy and paste the html, css and js code for save time, build your app faster and responsive"><meta name="twitter:image" content="https://www.bootdey.com/files/SnippetsImages/bootstrap-snippets-1122.png"><meta name="twitter:url" content="https://www.bootdey.com/snippets/preview/about-me-profile"><meta property="og:title" content="Preview bootstrap html snippet. about me profile"><meta property="og:url" content="https://www.bootdey.com/snippets/preview/about-me-profile"><meta property="og:image" content="https://www.bootdey.com/files/SnippetsImages/bootstrap-snippets-1122.png"><meta property="og:description" content="Preview bootstrap html snippet. about me profile. Copy and paste the html, css and js code for save time, build your app faster and responsive"><meta name="msvalidate.01" content="23285BE3183727A550D31CAE95A790AB" /> <script src="/cache-js/cache-1635427806-97135bbb13d92c11d6b2a92f6a36685a.js" type="text/javascript"></script> </head><body><div id="snippetContent"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"> <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" /><div class="container"><div class="row"><div class="col-lg-4 col-xl-4"><div class="card-box text-center"> <img src="https://avatars.githubusercontent.com/u/3039851?v=4" class="rounded-circle avatar-xl img-thumbnail" alt="profile-image"><h4 class="mb-0">Johan Santri</h4><p class="text-muted">@SoftwareTester</p>
+    <hr>
+    <div class="text-left mt-3"><p class="text-muted font-13 mb-3"> Hi I'm Johan,has been the industry's standard dummy text ever since the
+1500s, when an unknown printer took a galley of type.</p><p class="text-muted mb-2 font-13"><strong>Mobile :</strong><span class="ml-2">(+62)
+857-6813-7009</span></p><p class="text-muted mb-2 font-13"><strong>Email :</strong> <span class="ml-2 ">johansantri@gmail.com</span></p><p class="text-muted mb-1 font-13"><strong>Location :</strong> <span class="ml-2">Indonesia</span></p></div><ul class="social-list list-inline mt-3 mb-0"><li class="list-inline-item"> <a href="javascript: void(0);" class="social-list-item border-purple text-purple"><i class="fab fa-facebook"></i></a></li><li class="list-inline-item"> <a href="javascript: void(0);" class="social-list-item border-danger text-danger"><i class="fab fa-google"></i></a></li><li class="list-inline-item"> <a href="javascript: void(0);" class="social-list-item border-info text-info"><i class="fab fa-twitter"></i></a></li><li class="list-inline-item"> <a href="javascript: void(0);" class="social-list-item border-secondary text-secondary"><i class="fab fa-github"></i></a></li></ul></div><div class="card-box"><h4 class="header-title">Skills</h4><p class="mb-3">Everyone realizes why a new common language would be desirable</p><div class="pt-1"><h6 class="text-uppercase mt-0">Script base Python, PHP <span class="float-right">90%</span></h6><div class="progress progress-sm m-0"><div class="progress-bar bg-purple" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"> <span class="sr-only">90% Complete</span></div></div></div><div class="mt-2 pt-1"><h6 class="text-uppercase">Linux <span class="float-right">90%</span></h6><div class="progress progress-sm m-0"><div class="progress-bar bg-purple" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"> <span class="sr-only">67% Complete</span></div></div></div><div class="mt-2 pt-1"><h6 class="text-uppercase">White box <span class="float-right">99%</span></h6><div class="progress progress-sm m-0"><div class="progress-bar bg-purple" role="progressbar" aria-valuenow="48" aria-valuemin="0" aria-valuemax="100" style="width: 48%"> <span class="sr-only">48% Complete</span></div></div></div><div class="mt-2 pt-1"><h6 class="text-uppercase">Black box <span class="float-right">98%</span></h6><div class="progress progress-sm m-0"><div class="progress-bar bg-purple" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"> <span class="sr-only">95% Complete</span></div></div></div>
 
 </div>
+</div>
+<div class="col-lg-8 col-xl-8">
+    <div class="card-box">
+        <ul class="nav nav-pills navtab-bg">
+            <li class="nav-item">
+                 <a href="#about-me" data-toggle="tab" aria-expanded="true" class="nav-link ml-0 active"> 
+                    <i class="mdi mdi-face-profile mr-1"></i>About Me </a>
+                </li>
+            <li class="nav-item"> </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane show active" id="about-me"><h5 class="mb-4 text-uppercase"><i class="mdi mdi-briefcase mr-1"></i> Experience</h5><ul class="list-unstyled timeline-sm"><li class="timeline-sm-item"> <span class="timeline-sm-date">2015 - 19</span><h5 class="mt-0 mb-1">Lead designer / Developer</h5><p>websitename.com</p><p class="text-muted mt-2">Everyone realizes why a new common language
+would be desirable: one could refuse to pay expensive translators.
+To achieve this, it would be necessary to have uniform grammar,
+pronunciation and more common words.</p></li><li class="timeline-sm-item"> <span class="timeline-sm-date">2012 - 15</span><h5 class="mt-0 mb-1">Senior Graphic Designer</h5><p>Software Inc.</p><p class="text-muted mt-2">If several languages coalesce, the grammar
+of the resulting language is more simple and regular than that of
+the individual languages. The new common language will be more
+simple and regular than the existing European languages.</p></li><li class="timeline-sm-item"> <span class="timeline-sm-date">2010 - 12</span><h5 class="mt-0 mb-1">Graphic Designer</h5><p>Coderthemes LLP</p><p class="text-muted mt-2 mb-0">The European languages are members of
+the same family. Their separate existence is a myth. For science
+music sport etc, Europe uses the same vocabulary. The languages
+only differ in their grammar their pronunciation.</p></li></ul>
+<h5 class="mb-3 mt-4 text-uppercase"><i class="mdi mdi-cards-variant mr-1"></i> </h5>
+<div class="table-responsive">
 
-	<script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
-	<script src="https://unpkg.com/tippy.js@4"></script>
-	<script>
-		//Init tooltips
-		tippy('.link',{
-		  placement: 'bottom'
-		})
+</div></div><div class="tab-pane" id="settings"><form><h5 class="mb-3 text-uppercase bg-light p-2"><i class="mdi mdi-account-circle mr-1"></i> Personal Info</h5><div class="row"><div class="col-md-6"><div class="form-group"> <label for="firstname">First Name</label> <input type="text" class="form-control" id="firstname" placeholder="Enter first name"></div></div><div class="col-md-6"><div class="form-group"> <label for="lastname">Last Name</label> <input type="text" class="form-control" id="lastname" placeholder="Enter last name"></div></div></div><div class="row"><div class="col-12"><div class="form-group"> <label for="userbio">Bio</label><textarea class="form-control" id="userbio" rows="4" placeholder="Write something..."></textarea></div></div></div><div class="row"><div class="col-md-6"><div class="form-group"> <label for="useremail">Email Address</label> <input type="email" class="form-control" id="useremail" placeholder="Enter email"> <span class="form-text text-muted"><small>If you want to change email please <a href="javascript: void(0);">click</a> here.</small></span></div></div><div class="col-md-6"><div class="form-group"> <label for="userpassword">Password</label> <input type="password" class="form-control" id="userpassword" placeholder="Enter password"> <span class="form-text text-muted"><small>If you want to change password please <a href="javascript: void(0);">click</a> here.</small></span></div></div></div><h5 class="mb-3 text-uppercase bg-light p-2"><i class="mdi mdi-office-building mr-1"></i> Company Info</h5><div class="row"><div class="col-md-6"><div class="form-group"> <label for="companyname">Company Name</label> <input type="text" class="form-control" id="companyname" placeholder="Enter company name"></div></div><div class="col-md-6"><div class="form-group"> <label for="cwebsite">Website</label> <input type="text" class="form-control" id="cwebsite" placeholder="Enter website url"></div></div></div><h5 class="mb-3 text-uppercase bg-light p-2"><i class="mdi mdi-earth mr-1"></i> Social</h5><div class="row"><div class="col-md-6"><div class="form-group"> <label for="social-fb">Facebook</label><div class="input-group"><div class="input-group-prepend"> <span class="input-group-text"><i class="fab fa-facebook-square"></i></span></div> <input type="text" class="form-control" id="social-fb" placeholder="Url"></div></div></div><div class="col-md-6"><div class="form-group"> <label for="social-tw">Twitter</label><div class="input-group"><div class="input-group-prepend"> <span class="input-group-text"><i class="fab fa-twitter"></i></span></div> <input type="text" class="form-control" id="social-tw" placeholder="Username"></div></div></div></div><div class="row"><div class="col-md-6"><div class="form-group"> <label for="social-insta">Instagram</label><div class="input-group"><div class="input-group-prepend"> <span class="input-group-text"><i class="fab fa-instagram"></i></span></div> <input type="text" class="form-control" id="social-insta" placeholder="Url"></div></div></div><div class="col-md-6"><div class="form-group"> <label for="social-lin">Linkedin</label><div class="input-group"><div class="input-group-prepend"> <span class="input-group-text"><i class="fab fa-linkedin"></i></span></div> <input type="text" class="form-control" id="social-lin" placeholder="Url"></div></div></div></div><div class="row"><div class="col-md-6"><div class="form-group"> <label for="social-sky">Skype</label><div class="input-group"><div class="input-group-prepend"> <span class="input-group-text"><i class="fab fa-skype"></i></span></div> <input type="text" class="form-control" id="social-sky" placeholder="@username"></div></div></div><div class="col-md-6"><div class="form-group"> <label for="social-gh">Github</label><div class="input-group"><div class="input-group-prepend"> <span class="input-group-text"><i class="fab fa-github"></i></span></div> <input type="text" class="form-control" id="social-gh" placeholder="Username"></div></div></div></div><div class="text-right"> <button type="submit" class="btn btn-success waves-effect waves-light mt-2"><i class="mdi mdi-content-save"></i> Save</button></div></form></div></div></div></div></div></div>
 
-		//Toggle mode
-		const toggle = document.querySelector('.js-change-theme');
-		const body = document.querySelector('body');
-		const profile = document.getElementById('profile');
-		
-		
-		toggle.addEventListener('click', () => {
+<style type="text/css">
+    body{
+    color: #6c757d;
+    background-color: #f5f6f8;
+    margin-top:20px;
+}
+.card-box {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e7eaed;
+    padding: 1.5rem;
+    margin-bottom: 24px;
+    border-radius: .25rem;
+}
+.avatar-xl {
+    height: 6rem;
+    width: 6rem;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #1abc9c;
+}
+.nav-pills .nav-link {
+    border-radius: .25rem;
+}
+.navtab-bg li>a {
+    background-color: #f7f7f7;
+    margin: 0 5px;
+}
+.nav-pills>li>a, .nav-tabs>li>a {
+    color: #6c757d;
+    font-weight: 600;
+}
+.mb-4, .my-4 {
+    margin-bottom: 2.25rem!important;
+}
+.tab-content {
+    padding: 20px 0 0 0;
+}
+.progress-sm {
+    height: 5px;
+}
+.m-0 {
+    margin: 0!important;
+}
+.table .thead-light th {
+    color: #6c757d;
+    background-color: #f1f5f7;
+    border-color: #dee2e6;
+}
+.social-list-item {
+    height: 2rem;
+    width: 2rem;
+    line-height: calc(2rem - 4px);
+    display: block;
+    border: 2px solid #adb5bd;
+    border-radius: 50%;
+    color: #adb5bd;
+}
 
-		  if (body.classList.contains('text-gray-900')) {
-			toggle.innerHTML = "☀️";
-			body.classList.remove('text-gray-900');
-			body.classList.add('text-gray-100');
-			profile.classList.remove('bg-white');
-			profile.classList.add('bg-gray-900');
-		  } else
-		  {
-			toggle.innerHTML = "🌙";
-			body.classList.remove('text-gray-100');
-			body.classList.add('text-gray-900');
-			profile.classList.remove('bg-gray-900');			
-			profile.classList.add('bg-white');
-			
-		  }
-		});
-		
-    </script>
-	
-</body>
+.text-purple {
+    color: #6559cc!important;
+}
+.border-purple {
+    border-color: #6559cc!important;
+}
 
-</html>
+.timeline {
+    margin-bottom: 50px;
+    position: relative;
+}
+.timeline:before {
+    background-color: #dee2e6;
+    bottom: 0;
+    content: "";
+    left: 50%;
+    position: absolute;
+    top: 30px;
+    width: 2px;
+    z-index: 0;
+}
+.timeline .time-show {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+.timeline .timeline-box {
+    background: #fff;
+    display: block;
+    margin: 15px 0;
+    position: relative;
+    padding: 20px;
+}
+.timeline .timeline-album {
+    margin-top: 12px;
+}
+.timeline .timeline-album a {
+    display: inline-block;
+    margin-right: 5px;
+}
+.timeline .timeline-album img {
+    height: 36px;
+    width: auto;
+    border-radius: 3px;
+}
+@media (min-width: 768px) {
+    .timeline .time-show {
+        margin-right: -69px;
+        text-align: right;
+    }
+    .timeline .timeline-box {
+        margin-left: 45px;
+    }
+    .timeline .timeline-icon {
+        background: #dee2e6;
+        border-radius: 50%;
+        display: block;
+        height: 20px;
+        left: -54px;
+        margin-top: -10px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 20px;
+    }
+    .timeline .timeline-icon i {
+        color: #98a6ad;
+        font-size: 13px;
+        position: absolute;
+        left: 4px;
+    }
+    .timeline .timeline-desk {
+        display: table-cell;
+        vertical-align: top;
+        width: 50%;
+    }
+    .timeline-item {
+        display: table-row;
+    }
+    .timeline-item:before {
+        content: "";
+        display: block;
+        width: 50%;
+    }
+    .timeline-item .timeline-desk .arrow {
+        border-bottom: 12px solid transparent;
+        border-right: 12px solid #fff !important;
+        border-top: 12px solid transparent;
+        display: block;
+        height: 0;
+        left: -12px;
+        margin-top: -12px;
+        position: absolute;
+        top: 50%;
+        width: 0;
+    }
+    .timeline-item.timeline-item-left:after {
+        content: "";
+        display: block;
+        width: 50%;
+    }
+    .timeline-item.timeline-item-left .timeline-desk .arrow-alt {
+        border-bottom: 12px solid transparent;
+        border-left: 12px solid #fff !important;
+        border-top: 12px solid transparent;
+        display: block;
+        height: 0;
+        left: auto;
+        margin-top: -12px;
+        position: absolute;
+        right: -12px;
+        top: 50%;
+        width: 0;
+    }
+    .timeline-item.timeline-item-left .timeline-desk .album {
+        float: right;
+        margin-top: 20px;
+    }
+    .timeline-item.timeline-item-left .timeline-desk .album a {
+        float: right;
+        margin-left: 5px;
+    }
+    .timeline-item.timeline-item-left .timeline-icon {
+        left: auto;
+        right: -56px;
+    }
+    .timeline-item.timeline-item-left:before {
+        display: none;
+    }
+    .timeline-item.timeline-item-left .timeline-box {
+        margin-right: 45px;
+        margin-left: 0;
+        text-align: right;
+    }
+}
+@media (max-width: 767.98px) {
+    .timeline .time-show {
+        text-align: center;
+        position: relative;
+    }
+    .timeline .timeline-icon {
+        display: none;
+    }
+}
+.timeline-sm {
+    padding-left: 110px;
+}
+.timeline-sm .timeline-sm-item {
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-left: 2px solid #dee2e6;
+}
+.timeline-sm .timeline-sm-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -7px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #1abc9c;
+}
+.timeline-sm .timeline-sm-item .timeline-sm-date {
+    position: absolute;
+    left: -104px;
+}
+@media (max-width: 420px) {
+    .timeline-sm {
+        padding-left: 0;
+    }
+    .timeline-sm .timeline-sm-date {
+        position: relative !important;
+        display: block;
+        left: 0 !important;
+        margin-bottom: 10px;
+    }
+}</style> 
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script type="text/javascript"></script> </div> <script async src="https://www.googletagmanager.com/gtag/js?id=G-F1RTS0P1CD"></script> 
+<script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-F1RTS0P1CD');</script>
+     </body></html>
